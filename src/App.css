@@ -1,70 +1,71 @@
 #root {
-  background-color: green;
+  
+  background: url("../public/Improved\ background.svg");
+background-repeat: no-repeat;
+ background-size: cover;
   text-align: center;
-  margin: 0;
-  padding: 0;
+
 }
 
-html {
-  margin: 0;
-  padding: 0;
-}
-
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
 .intro {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url('../public/intro.svg');
+  background-image: url("../public/intro.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-me {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url('../public/about-me.svg');
+  background-image: url("../public/about-me.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .projects {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url('../public/projects.svg');
+  background-image: url("../public/projects.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .skills {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url('../public/skills.svg');
+  background-image: url("../public/skills.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-nav{
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: calc(100% - 10%); /* Adjust the width based on your needs */
+  width: calc(100% - 10%);
   background-color: goldenrod;
   border-radius: 0 0 2rem 2rem;
   margin: 0 5%;
   position: fixed;
-  
 }
 
 nav a {
@@ -73,4 +74,27 @@ nav a {
 
 h1 {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: brown;
+}
+
+footer {
+  background-image: url("../public/footer-01-01.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
