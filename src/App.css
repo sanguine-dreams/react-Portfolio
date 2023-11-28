@@ -1,0 +1,76 @@
+#root {
+  background-color: green;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+
+  height: 100vh;
+  background-image: url('../public/intro.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me {
+
+  height: 100vh;
+  background-image: url('../public/about-me.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.projects {
+
+  height: 100vh;
+  background-image: url('../public/projects.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills {
+
+  height: 100vh;
+  background-image: url('../public/skills.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(100% - 10%); /* Adjust the width based on your needs */
+  background-color: goldenrod;
+  border-radius: 0 0 2rem 2rem;
+  margin: 0 5%;
+  position: fixed;
+  
+}
+
+nav a {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
