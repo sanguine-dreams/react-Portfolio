@@ -10,14 +10,12 @@ import Footer from "./sections/Footer";
 function App() {
   return (
     <>
-
       <NavBar />
       <Intro />
       <AboutMe />
       <Projects />
       <Skills />
       <Footer />
-  
     </>
   );
 }
