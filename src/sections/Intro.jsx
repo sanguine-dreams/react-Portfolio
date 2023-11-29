@@ -1,6 +1,6 @@
 function Intro(){
     return <div className="intro">
-        <h1>Welcome to My portfolio</h1>
+        <h1>Welcome to My portfolio: As you can see, it's under construction. </h1>
     </div>
 }
 
