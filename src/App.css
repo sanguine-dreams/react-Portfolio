@@ -13,8 +13,9 @@ body {
 }
 
 .intro {
+  padding: 5%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 100vh;
   background-image: url("../public/intro.svg");
@@ -97,4 +98,32 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.display-image{
+
+  background-image: url('../public/dp-bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50% 50% 0 0;
+  border-color: gold;
+  border-style: solid;
+  width: 40%;
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.intro-text {
+  width: 60%;
+}
+
+#dp {
+  
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
 }
