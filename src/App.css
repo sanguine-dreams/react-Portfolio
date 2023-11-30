@@ -33,9 +33,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5%;
 }
 
 .projects {
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +49,7 @@ body {
 }
 
 .skills {
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +94,7 @@ a:visited {
 
 footer {
   background-image: url("../public/footer-01-01.svg");
+  padding-top: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,17 +105,16 @@ footer {
 }
 
 .display-image{
-
   background-image: url('../public/dp-bg.svg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50% 50% 0 0;
-  border-color: gold;
-  border-style: solid;
+  border-color: bisque;
+  border-style: double;
+  border-width: 1.5rem;
   width: 40%;
-  height: 60%;
+  height: 80%;
   overflow: hidden;
-  position: relative;
 
 }
 
@@ -122,8 +125,7 @@ footer {
 #dp {
   
   width: 100%;
+  left: 0;
   bottom: 0;
-  right: 0;
-  position: absolute;
 
 }
