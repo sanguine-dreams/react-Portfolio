@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Cards.css";
 import Intro from "./sections/Intro";
 import AboutMe from "./sections/AboutMe";
 import Skills from "./sections/Skills";
